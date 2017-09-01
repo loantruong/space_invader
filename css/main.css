@@ -1,0 +1,38 @@
+body{
+    background-color: #981d1d !important;
+}
+.container{
+    background-color: #981d1d;
+}
+.space-invader{
+    background-color:rgb(253, 243, 124);;
+    height: 3em;
+    border: 1px #981d1d solid;
+}
+
+@media (min-width: 1024px){
+    .space-invader{
+        height: 6em;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .space-invader{
+        height: 4em;
+    }
+}
+@media (max-width: 767px) {
+    .space-invader{
+        height: 3em;
+    }
+}
+@media (max-width: 480px){
+    .space-invader{
+        height: 2.3em;
+        padding-right: 0px !important;
+    }
+}
+@media (max-width: 320px){
+    .space-invader{
+        height: 1.5em;
+    }
+}
